@@ -1,0 +1,234 @@
+body {
+    background: #F2F2F2;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  .profile-card-1 {
+    width: 300px;
+    height: 450px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 10px #999;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .profile-card-1 .view-more {
+    position: absolute;
+    top: calc(50% - .25em);
+    left: calc(50% - .25em);
+    z-index: 2;
+    color: #2ECC71;
+    font-size: 2em;
+  }
+
+  .profile-card-1 .popup {
+    height: 500px;
+    width: 500px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .profile-card-1 .mid-section {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 200px;
+    left: 0;
+    padding: 10px 10px 0;
+    box-sizing: border-box;
+    background: white;
+  }
+  .profile-card-1 .mid-section .name {
+    color: #333333;
+    font-size: 1.4em;
+    padding-top: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+  }
+  .profile-card-1 .mid-section .description {
+    color: gray;
+    font-size: 0.9em;
+    padding-bottom: 5px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .profile-card-1 .mid-section .description a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .profile-card-1 .mid-section .line {
+    background: #7ee2a8;
+    width: 90%;
+    height: 2px;
+    margin: 5px auto -3px;
+  }
+  .profile-card-1 .mid-section .socials {
+    display: flex;
+    position: absolute;
+    left: 5%;
+    padding-top: 10px;
+    width: 90%;
+    justify-content: space-around;
+  }
+  .profile-card-1 .mid-section .socials .stat {
+    font-size: 1.3em;
+    color: #333333;
+    padding: 0px;
+    font-weight: bold;
+  }
+
+  .profile-card-1 .mid-section .socials .stat a {
+    font-size: 1.2em;
+    color: #333333;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .profile-card-1 .mid-section .text2 {
+      width: 90%;
+   
+    margin: 5px auto 3px;
+
+  }
+
+
+  .profile-card-1 .mid-section .stats {
+    display: flex;
+    position: absolute;
+    left: 10%;
+    padding-top: 10px;
+    width: 80%;
+    justify-content: space-around;
+  }
+  .profile-card-1 .mid-section .stats .stat {
+    font-size: 1.3em;
+    color: #333333;
+    padding: 0px;
+    font-weight: bold;
+  }
+
+  .profile-card-1 .mid-section .stats .stat a {
+    font-size: 1.2em;
+    color: #333333;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .profile-card-1 .mid-section .stats .subtext {
+    color: gray;
+    font-size: 0.6em;
+    font-weight: normal;
+  }
+  .profile-card-1 .img {
+    height: 130px;
+    width: 100%;
+    background-image: linear-gradient(rgba(59, 89, 152, 0.4), rgba(66, 100, 170, 0.95)), url("https://www.rtlz.nl/sites/default/files/styles/liggend/public/content/images/2019/04/17/ANP-AJAX-DELIGT.jpg");
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .profile-card-1 .img img {
+    width: 160px;
+    height: 160px;
+    padding: 0px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    position: absolute;
+    left: calc(50% - 84px);
+    top: 26px;
+  }
+  /* .profile-card-1 .img:after {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    left: calc(50% - 91.5px);
+    top: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.4); */
+  }
+  .profile-card-1 .img:before {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    left: calc(50% - 95px);
+    top: 15.5px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  .profile-card-1 .links {
+    width: 100%;
+    height: 40px;
+    background: #F2F2F2;
+    margin-top: 2px;
+    border-radius: 0px;
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+    position: absolute;
+    bottom: 0;
+  }
+  .profile-card-1 .links a {
+    color: white;
+  }
+  .profile-card-1 .links .about {
+    position: absolute;
+    left: 0;
+    width: 33.33%;
+    height: 100%;
+    background-color: #3b5998;
+  }
+  .profile-card-1 .links .about:hover {
+    background-color: #4264aa;
+  }
+  .profile-card-1 .links .project {
+    position: absolute;
+    left: 33.33%;
+    width: 33.34%;
+    height: 100%;
+    background-color: #3b5998;
+  }
+  .profile-card-1 .links .project:hover {
+    background-color: #4264aa;
+  }
+  .profile-card-1 .links .contact {
+    position: absolute;
+    left: 66.67%;
+    width: 33.38%;
+    height: 100%;
+    background-color: #3b5998;
+  }
+  .profile-card-1 .links .contact:hover {
+    background-color: #4264aa;
+    opacity: 1;
+  }
+  
+  .profile-card-2 {
+    width: 250px;
+    height: 500px;
+    background: #2ECC71;
+  }
+
+  /* .profile-card-1 .links .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 1;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .profile-card-1 .links .contact .img__description {
+    visibility: visible;
+    opacity: 1;
+  } */
